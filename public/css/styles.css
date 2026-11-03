@@ -1,0 +1,26 @@
+/*
+  public/css/styles.css — estilos globais
+  Responsável: Pedro
+
+  Identidade: obsidiana + ciano néon, minimalista e agressivo (referência CrowdStrike / Cloudflare).
+  Só tema escuro.
+
+  TODO:
+   1. Variáveis (:root) — sugestão de paleta:
+        --bg:        #0A0F1E   (fundo obsidiana)
+        --surface:   #111A2E   (cartões, sidebar)
+        --border:    cor discreta, 1px
+        --accent:    #00E5FF   (ciano néon)
+        --text / --text-muted
+        --sev-critical (vermelho) --sev-high (laranja) --sev-medium (amarelo) --sev-low (azul/cinza)
+        --ok (verde, para "resolvido")
+   2. Tipografia: Orbitron (logótipo, títulos, números grandes) + Rajdhani (restante texto).
+      Definir fallback (sans-serif / monospace).
+   3. Reset básico e layout base: sidebar fixa + área de conteúdo (CSS Grid/Flexbox).
+   4. Componentes: cartão, cartão KPI, botão (primário/secundário/perigo), input/select,
+      tabela, badge de severidade, badge de estado, toast, modal, toggle, paginação, timeline.
+   5. Brilho ciano subtil em hover/foco (box-shadow), estados de foco visíveis.
+   6. Estados: a carregar (skeleton/spinner), vazio, erro.
+   7. Responsivo: desktop primeiro; ajustar para tablet (sidebar recolhível).
+   8. Severidade e estado nunca só por cor: acompanhar com texto/ícone.
+*/

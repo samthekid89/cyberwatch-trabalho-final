@@ -1,0 +1,20 @@
+# Credenciais locais (usar config/config.example.php como modelo)
+config/config.php
+.env
+
+# Logs
+*.log
+logs/*
+!logs/.gitkeep
+
+# Editores / sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dependências / backups
+vendor/
+node_modules/
+*.bak
+*.tmp
